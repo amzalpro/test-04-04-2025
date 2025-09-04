@@ -1,0 +1,62 @@
+[
+  {
+    "id": "sk1",
+    "name": "Problem Solving",
+    "subject": "Mathematics",
+    "description": "Ability to solve complex mathematical problems",
+    "levels": [
+      { "level": 1, "name": "Beginner", "description": "Needs guidance for basic problems" },
+      { "level": 2, "name": "Developing", "description": "Solves simple problems independently" },
+      { "level": 3, "name": "Proficient", "description": "Solves moderate complexity problems" },
+      { "level": 4, "name": "Advanced", "description": "Solves complex problems creatively" }
+    ]
+  },
+  {
+    "id": "sk2", 
+    "name": "Experimental Design",
+    "subject": "Physics",
+    "description": "Ability to design and conduct physics experiments",
+    "levels": [
+      { "level": 1, "name": "Beginner", "description": "Follows instructions with assistance" },
+      { "level": 2, "name": "Developing", "description": "Follows procedures independently" },
+      { "level": 3, "name": "Proficient", "description": "Modifies procedures appropriately" },
+      { "level": 4, "name": "Advanced", "description": "Designs original experiments" }
+    ]
+  },
+  {
+    "id": "sk3",
+    "name": "Scientific Communication",
+    "subject": "Science",
+    "description": "Ability to communicate scientific ideas clearly",
+    "levels": [
+      { "level": 1, "name": "Beginner", "description": "Basic vocabulary and concepts" },
+      { "level": 2, "name": "Developing", "description": "Clear explanations of simple concepts" },
+      { "level": 3, "name": "Proficient", "description": "Detailed explanations with examples" },
+      { "level": 4, "name": "Advanced", "description": "Uses precise scientific language" }
+    ]
+  },
+  {
+    "id": "sk4",
+    "name": "Critical Thinking",
+    "subject": "General",
+    "description": "Ability to analyze and evaluate information",
+    "levels": [
+      { "level": 1, "name": "Beginner", "description": "Identifies basic information" },
+      { "level": 2, "name": "Developing", "description": "Compares different information sources" },
+      { "level": 3, "name": "Proficient", "description": "Evaluates reliability of sources" },
+      { "level": 4, "name": "Advanced", "description": "Synthesizes complex information" }
+    ]
+  },
+  {
+    "id": "sk5",
+    "name": "Collaboration",
+    "subject": "General",
+    "description": "Ability to work effectively in groups",
+    "levels": [
+      { "level": 1, "name": "Beginner", "description": "Participates with encouragement" },
+      { "level": 2, "name": "Developing", "description": "Contributes to group discussions" },
+      { "level": 3, "name": "Proficient", "description": "Takes initiative in group tasks" },
+      { "level": 4, "name": "Advanced", "description": "Facilitates and leads group work" }
+    ]
+  }
+]

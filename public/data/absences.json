@@ -1,0 +1,57 @@
+[
+  {
+    "id": "abs1",
+    "studentId": "s1",
+    "date": "2025-04-08",
+    "period": "09:15 - 10:15",
+    "subject": "Physics",
+    "type": "excused",
+    "reason": "Medical appointment",
+    "parentNotified": true,
+    "makeupRequired": true
+  },
+  {
+    "id": "abs2",
+    "studentId": "s3",
+    "date": "2025-04-09",
+    "period": "08:00 - 09:00", 
+    "subject": "Mathematics",
+    "type": "unexcused",
+    "reason": "Overslept",
+    "parentNotified": true,
+    "makeupRequired": false
+  },
+  {
+    "id": "abs3",
+    "studentId": "s2",
+    "date": "2025-04-10",
+    "period": "13:45 - 14:45",
+    "subject": "Chemistry",
+    "type": "excused",
+    "reason": "Family emergency",
+    "parentNotified": true,
+    "makeupRequired": true
+  },
+  {
+    "id": "abs4",
+    "studentId": "s4",
+    "date": "2025-04-11",
+    "period": "10:30 - 11:30",
+    "subject": "Biology",
+    "type": "excused", 
+    "reason": "School activity",
+    "parentNotified": false,
+    "makeupRequired": false
+  },
+  {
+    "id": "abs5",
+    "studentId": "s5",
+    "date": "2025-04-12",
+    "period": "12:30 - 13:30",
+    "subject": "English",
+    "type": "unexcused",
+    "reason": "No reason provided",
+    "parentNotified": true,
+    "makeupRequired": false
+  }
+]

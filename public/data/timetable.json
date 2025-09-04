@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "version": "0.2.0",
+    "lastUpdated": "2025-04-13T10:00:00Z",
+    "academicYear": "2024-2025",
+    "semester": "Spring"
+  },
+  "weekdays": [
+    {
+      "id": "mon",
+      "day": "Monday",
+      "slots": [
+        {
+          "id": "slot1",
+          "time": "08:00 - 09:00",
+          "subject": "Mathematics",
+          "classId": "c1",
+          "room": "101",
+          "teacherId": "t1"
+        },
+        {
+          "id": "slot2", 
+          "time": "09:15 - 10:15",
+          "subject": "Physics",
+          "classId": "c4",
+          "room": "201",
+          "teacherId": "t2"
+        },
+        {
+          "id": "slot3",
+          "time": "10:30 - 11:30",
+          "subject": "Mathematics", 
+          "classId": "c5",
+          "room": "301",
+          "teacherId": "t1"
+        },
+        {
+          "id": "slot4",
+          "time": "12:30 - 13:30",
+          "subject": "Physics",
+          "classId": "c2",
+          "room": "202",
+          "teacherId": "t2"
+        },
+        {
+          "id": "slot5",
+          "time": "13:45 - 14:45",
+          "subject": "Mathematics",
+          "classId": "c3",
+          "room": "101",
+          "teacherId": "t1"
+        }
+      ]
+    },
+    {
+      "id": "tue",
+      "day": "Tuesday",
+      "slots": [
+        {
+          "id": "slot6",
+          "time": "08:00 - 09:00",
+          "subject": "Physics",
+          "classId": "c1",
+          "room": "201",
+          "teacherId": "t2"
+        },
+        {
+          "id": "slot7",
+          "time": "09:15 - 10:15", 
+          "subject": "Mathematics",
+          "classId": "c4",
+          "room": "101",
+          "teacherId": "t1"
+        },
+        {
+          "id": "slot8",
+          "time": "10:30 - 11:30",
+          "subject": "Physics",
+          "classId": "c5",
+          "room": "201",
+          "teacherId": "t2"
+        },
+        {
+          "id": "slot9",
+          "time": "12:30 - 13:30",
+          "subject": null,
+          "classId": null,
+          "room": null,
+          "teacherId": null,
+          "note": "Free Period"
+        },
+        {
+          "id": "slot10",
+          "time": "13:45 - 14:45",
+          "subject": "Mathematics",
+          "classId": "c2",
+          "room": "101",
+          "teacherId": "t1"
+        }
+      ]
+    },
+    {
+      "id": "wed",
+      "day": "Wednesday",
+      "slots": [
+        {
+          "id": "slot11",
+          "time": "08:00 - 09:00",
+          "subject": "Mathematics",
+          "classId": "c1",
+          "room": "101",
+          "teacherId": "t1"
+        },
+        {
+          "id": "slot12",
+          "time": "09:15 - 10:15",
+          "subject": "Physics",
+          "classId": "c4",
+          "room": "201",
+          "teacherId": "t2"
+        },
+        {
+          "id": "slot13",
+          "time": "10:30 - 11:30",
+          "subject": "Mathematics",
+          "classId": "c5",
+          "room": "301",
+          "teacherId": "t1"
+        },
+        {
+          "id": "slot14",
+          "time": "12:30 - 13:30",
+          "subject": null,
+          "classId": null,
+          "room": null,
+          "teacherId": null,
+          "note": "Free Period"
+        },
+        {
+          "id": "slot15",
+          "time": "13:45 - 14:45",
+          "subject": "Physics",
+          "classId": "c3",
+          "room": "201",
+          "teacherId": "t2"
+        }
+      ]
+    },
+    {
+      "id": "thu",
+      "day": "Thursday", 
+      "slots": [
+        {
+          "id": "slot16",
+          "time": "08:00 - 09:00",
+          "subject": "Physics",
+          "classId": "c1",
+          "room": "201",
+          "teacherId": "t2"
+        },
+        {
+          "id": "slot17",
+          "time": "09:15 - 10:15",
+          "subject": "Mathematics",
+          "classId": "c4",
+          "room": "101",
+          "teacherId": "t1"
+        },
+        {
+          "id": "slot18",
+          "time": "10:30 - 11:30",
+          "subject": "Physics",
+          "classId": "c5",
+          "room": "201",
+          "teacherId": "t2"
+        },
+        {
+          "id": "slot19",
+          "time": "12:30 - 13:30",
+          "subject": "Mathematics",
+          "classId": "c2",
+          "room": "101",
+          "teacherId": "t1"
+        },
+        {
+          "id": "slot20",
+          "time": "13:45 - 14:45",
+          "subject": null,
+          "classId": null,
+          "room": null,
+          "teacherId": null,
+          "note": "Free Period"
+        }
+      ]
+    },
+    {
+      "id": "fri",
+      "day": "Friday",
+      "slots": [
+        {
+          "id": "slot21",
+          "time": "08:00 - 09:00",
+          "subject": "Mathematics",
+          "classId": "c1",
+          "room": "101",
+          "teacherId": "t1"
+        },
+        {
+          "id": "slot22",
+          "time": "09:15 - 10:15",
+          "subject": "Physics",
+          "classId": "c4",
+          "room": "201",
+          "teacherId": "t2"
+        },
+        {
+          "id": "slot23",
+          "time": "10:30 - 11:30",
+          "subject": "Mathematics",
+          "classId": "c5",
+          "room": "301",
+          "teacherId": "t1"
+        },
+        {
+          "id": "slot24",
+          "time": "12:30 - 13:30",
+          "subject": "Physics",
+          "classId": "c2",
+          "room": "202",
+          "teacherId": "t2"
+        },
+        {
+          "id": "slot25",
+          "time": "13:45 - 14:45",
+          "subject": "Mathematics",
+          "classId": "c3",
+          "room": "101",
+          "teacherId": "t1"
+        }
+      ]
+    }
+  ]
+}

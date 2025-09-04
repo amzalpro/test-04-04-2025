@@ -1,0 +1,82 @@
+[
+  {
+    "id": "c1",
+    "name": "10A",
+    "level": "Grade 10",
+    "section": "A",
+    "capacity": 30,
+    "currentEnrollment": 28,
+    "classTeacher": "Sarah Johnson",
+    "subjects": [
+      "Mathematics",
+      "Physics", 
+      "Chemistry",
+      "Biology",
+      "English"
+    ]
+  },
+  {
+    "id": "c2",
+    "name": "10B",
+    "level": "Grade 10",
+    "section": "B", 
+    "capacity": 30,
+    "currentEnrollment": 26,
+    "classTeacher": "Robert Wilson",
+    "subjects": [
+      "Mathematics",
+      "Physics",
+      "Chemistry", 
+      "Biology",
+      "English"
+    ]
+  },
+  {
+    "id": "c3",
+    "name": "11A",
+    "level": "Grade 11",
+    "section": "A",
+    "capacity": 28,
+    "currentEnrollment": 25,
+    "classTeacher": "Sarah Johnson", 
+    "subjects": [
+      "Mathematics",
+      "Physics",
+      "Chemistry",
+      "Biology",
+      "English"
+    ]
+  },
+  {
+    "id": "c4",
+    "name": "11B",
+    "level": "Grade 11",
+    "section": "B",
+    "capacity": 28,
+    "currentEnrollment": 27,
+    "classTeacher": "Robert Wilson",
+    "subjects": [
+      "Mathematics",
+      "Physics", 
+      "Chemistry",
+      "Biology",
+      "English"
+    ]
+  },
+  {
+    "id": "c5",
+    "name": "12C",
+    "level": "Grade 12",
+    "section": "C",
+    "capacity": 25,
+    "currentEnrollment": 23,
+    "classTeacher": "Sarah Johnson",
+    "subjects": [
+      "Mathematics",
+      "Physics",
+      "Chemistry", 
+      "Biology",
+      "English"
+    ]
+  }
+]

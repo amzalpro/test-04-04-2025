@@ -1,0 +1,42 @@
+[
+  {
+    "id": "g1",
+    "name": "Mathematics Advanced Group",
+    "description": "Students excelling in mathematics",
+    "classId": "c1",
+    "studentIds": ["s1", "s2", "s4"],
+    "teacherId": "t1",
+    "subject": "Mathematics",
+    "type": "ability"
+  },
+  {
+    "id": "g2", 
+    "name": "Physics Study Group",
+    "description": "Collaborative physics learning group",
+    "classId": "c1",
+    "studentIds": ["s2", "s3"],
+    "teacherId": "t2",
+    "subject": "Physics", 
+    "type": "collaborative"
+  },
+  {
+    "id": "g3",
+    "name": "Science Club Group",
+    "description": "Cross-class science enthusiasts",
+    "classId": null,
+    "studentIds": ["s1", "s2", "s3", "s5"],
+    "teacherId": "t2",
+    "subject": "Science",
+    "type": "extracurricular"
+  },
+  {
+    "id": "g4",
+    "name": "Remedial Mathematics",
+    "description": "Additional support for mathematics",
+    "classId": "c2",
+    "studentIds": ["s5"],
+    "teacherId": "t1",
+    "subject": "Mathematics",
+    "type": "remedial"
+  }
+]

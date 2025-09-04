@@ -1,0 +1,80 @@
+[
+  {
+    "id": "ev1",
+    "title": "Mid-Term Mathematics Test",
+    "subject": "Mathematics",
+    "classId": "c1",
+    "groupId": null,
+    "date": "2025-04-25",
+    "maxMarks": 50,
+    "duration": 60,
+    "coefficient": 2.0,
+    "topics": [
+      "Quadratic Equations",
+      "Polynomials", 
+      "Coordinate Geometry"
+    ],
+    "status": "upcoming",
+    "results": []
+  },
+  {
+    "id": "ev2",
+    "title": "Physics Monthly Assessment",
+    "subject": "Physics",
+    "classId": "c4",
+    "groupId": null,
+    "date": "2025-04-22",
+    "maxMarks": 30,
+    "duration": 45,
+    "coefficient": 1.5,
+    "topics": [
+      "Newton's Laws",
+      "Forces and Motion",
+      "Work, Energy and Power"
+    ],
+    "status": "upcoming",
+    "results": []
+  },
+  {
+    "id": "ev3",
+    "title": "Mathematics Quiz - Algebra",
+    "subject": "Mathematics",
+    "classId": "c1",
+    "groupId": null,
+    "date": "2025-04-10",
+    "maxMarks": 20,
+    "duration": 30,
+    "coefficient": 1.0,
+    "topics": [
+      "Algebraic Expressions",
+      "Linear Equations"
+    ],
+    "status": "completed",
+    "results": [
+      { "studentId": "s1", "marks": 18, "grade": "A" },
+      { "studentId": "s2", "marks": 16, "grade": "B+" },
+      { "studentId": "s3", "marks": 15, "grade": "B" },
+      { "studentId": "s4", "marks": 17, "grade": "B+" }
+    ]
+  },
+  {
+    "id": "ev4",
+    "title": "Group Physics Project",
+    "subject": "Physics",
+    "classId": null,
+    "groupId": "g2",
+    "date": "2025-04-15",
+    "maxMarks": 25,
+    "duration": 120,
+    "coefficient": 1.5,
+    "topics": [
+      "Motion Experiments",
+      "Data Analysis"
+    ],
+    "status": "completed",
+    "results": [
+      { "studentId": "s2", "marks": 23, "grade": "A" },
+      { "studentId": "s3", "marks": 21, "grade": "A-" }
+    ]
+  }
+]

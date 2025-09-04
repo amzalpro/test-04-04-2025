@@ -2,6 +2,7 @@ import React from 'react';
 import { Menu, Bell, Moon, Sun } from 'lucide-react';
 import { useTheme } from '../../context/ThemeContext';
 import { useAuth } from '../../context/AuthContext';
+import PWAStatus from '../../ui/PWAStatus';
 
 interface HeaderProps {
   setSidebarOpen: (open: boolean) => void;
@@ -27,6 +28,9 @@ const Header: React.FC<HeaderProps> = ({ setSidebarOpen }) => {
           <h1 className="ml-4 text-xl md:text-2xl font-semibold text-gray-800 dark:text-white">
             SchoolSync
           </h1>
+          
+          {/* PWA Status */}
+          <PWAStatus className="ml-4 hidden lg:flex" />
         </div>
         
         {/* Section droite */}
@@ -78,6 +82,11 @@ const Header: React.FC<HeaderProps> = ({ setSidebarOpen }) => {
             </button>
           </div>
         </div>
+      </div>
+      
+      {/* PWA Status for mobile */}
+      <div className="lg:hidden px-4 pb-2">
+        <PWAStatus />
       </div>
     </header>
   );

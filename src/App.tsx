@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext';
+import { AlertProvider } from './ui/AlertContext';
+import AlertContainer from './ui/AlertContainer';
 import Layout from './components/layout/Layout';
 import Dashboard from './pages/Dashboard';
 import Students from './pages/Students';
@@ -25,27 +27,30 @@ const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
 function App() {
   return (
     <ThemeProvider>
-      <AuthProvider>
-        <Router>
-          <Routes>
-            <Route path="/login" element={<Login />} />
-            
-            <Route path="/" element={
-              <ProtectedRoute>
-                <Layout />
-              </ProtectedRoute>
-            }>
-              <Route index element={<Dashboard />} />
-              <Route path="students" element={<Students />} />
-              <Route path="evaluations" element={<Evaluations />} />
-              <Route path="schedule" element={<Schedule />} />
-              <Route path="calendar" element={<Calendar />} />
-              <Route path="lessons" element={<LessonPlanner />} />
-              <Route path="*" element={<NotFound />} />
-            </Route>
-          </Routes>
-        </Router>
-      </AuthProvider>
+      <AlertProvider>
+        <AuthProvider>
+          <Router>
+            <Routes>
+              <Route path="/login" element={<Login />} />
+              
+              <Route path="/" element={
+                <ProtectedRoute>
+                  <Layout />
+                </ProtectedRoute>
+              }>
+                <Route index element={<Dashboard />} />
+                <Route path="students" element={<Students />} />
+                <Route path="evaluations" element={<Evaluations />} />
+                <Route path="schedule" element={<Schedule />} />
+                <Route path="calendar" element={<Calendar />} />
+                <Route path="lessons" element={<LessonPlanner />} />
+                <Route path="*" element={<NotFound />} />
+              </Route>
+            </Routes>
+          </Router>
+          <AlertContainer />
+        </AuthProvider>
+      </AlertProvider>
     </ThemeProvider>
   );
 }
